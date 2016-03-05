@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="EmbyLauncher.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="EmbyLocation" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Emby-Theater\system\Emby.Theater.exe</Value>
+    </Setting>
+    <Setting Name="WaitForNetwork" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">5</Value>
+    </Setting>
+    <Setting Name="EmbyLocationOverride" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="SleepDuration" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">10</Value>
+    </Setting>
+    <Setting Name="EmbyURL" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://emby.media</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
