@@ -77,7 +77,7 @@ namespace EmbyLauncher
         private static bool LaunchEmby()
         {
             string embyLoc=Properties.Settings.Default.EmbyLocationOverride;
-            if (!string.IsNullOrWhiteSpace(embyLoc))
+            if (string.IsNullOrWhiteSpace(embyLoc))
                 embyLoc=Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), Properties.Settings.Default.EmbyLocation);
 
             if (File.Exists(embyLoc))
